@@ -1,0 +1,496 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: #fff;
+}
+.header{
+    /* border: 1px white solid; */
+
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header.jpg);
+    background-size:cover;
+    background-position: center;
+    padding:10px 8%;
+    position:relative;
+    overflow: hidden;
+
+}
+nav{
+    display: flex;
+    /* border: 1px white solid; */
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 70px;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.headerdiv1{
+    /* border: 1px solid red; */
+    display:inline-flex;
+    padding-bottom: 5px;
+}
+
+.headerdiv1 .web{
+ height: 70px;
+}
+
+
+
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #7c6e6e;
+    padding: 7px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+.language-btn .web{
+width:20px;
+height: 15px;
+display: flex;
+padding-left: 0;
+margin-left: 1px;
+
+
+}
+
+
+.header-content{
+/* border: 1px white solid; */
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.header-content h1{
+    white-space: nowrap;
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 700;
+    max-width: 350px;
+    margin-left: 90px;
+
+}
+.header-content h3{
+   
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 240px;
+    line-height: 65px;
+
+}
+
+
+.header-content p{
+    margin-left:200px;
+    font-size: 20px;
+    white-space: nowrap;
+
+
+}
+
+.email-signup input[name="Email address"]::placeholder {
+    color:#fff;
+    font-size: 16px;
+    min-height: 16px;
+}
+
+
+.email-signup{
+    width: 73%;
+    background:transparent;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left:220px ;
+    /* margin-right:100px ; */
+    /* overflow: hidden; */
+    /* border: 1px solid #fff; */
+
+}
+.email-signup input{
+    flex: 1;
+    border: 1px solid #a09d9d;
+    outline: 0;
+    margin-left: 10px;
+    background: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.318));
+    display: flex;
+    border-radius: 4px;
+    padding: 15px 15px;
+
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    border-radius: 4px;
+    /* outline: 0; */
+    color: #fff;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-left: 25px;
+    padding-bottom: 7px;
+    padding-right: 25px;
+    /* padding: 15px 30px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    /* align-items: center; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  vertical-align: text-top;
+  width: auto;
+  /* font-size: 22px; */
+  font-size: 1.5rem;
+  font-weight: bold;
+
+
+}
+
+.arrow{
+    margin-left: 8px;
+    height: 20px;
+
+}
+
+.gets:hover{
+  background: #b10f0f;
+
+}
+
+/*-----------body 1 features------------*/
+
+.featuers{
+    border-top: 6px solid #333;
+    /* border: 1px solid #fff; */
+    padding: 50px 12%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.row{
+    display: flex;
+    /* border: 1px solid #fff; */
+    align-items: center;
+    padding: 50px 0;
+}
+
+
+.text1{
+    /* border: 1px solid #fff; */
+    margin-bottom: 65px;
+    min-width: fit-content;
+    display: block;
+   
+}
+.text1 h2{
+    white-space: nowrap;
+}
+.text1 p{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 400;
+
+}
+.tv1{
+    width: 50%;
+}
+
+
+
+/*----------- body 2 features1------------*/
+
+.features1{
+    /* border: 1px solid #fff; */
+    border-top: 10px solid #333;
+    font-weight: 900;
+    padding: 50px 12%;
+    font-size: 30px;
+}
+.row2{
+    display: flex;
+    /* border: 1px solid #fff; */
+    align-items: center;
+    padding: 50px 0;
+}
+.text2{
+    /* border: 1px solid #fff; */
+    margin-left: 5%;
+    margin-bottom: 65px;
+    min-width: fit-content;
+    display: block;
+
+}
+.text2 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+
+
+.row2 .mobile{
+    width: 45%;
+    padding-left: 10px;
+
+}
+
+/*-------------------------body 3 featuers3--------------------*/
+
+.featuers3{
+    border-top: 6px solid #333;
+    /* border: 1px solid #fff; */
+    padding: 50px 12%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.row3{
+    display: flex;
+    /* border: 1px solid #fff; */
+    align-items: center;
+    padding: 50px 0;
+}
+
+
+
+.text3{
+    /* border: 1px solid #fff; */
+    margin-bottom: 65px;
+    min-width: fit-content;
+    display: block;
+   
+}
+.text3 h2{
+    white-space: nowrap;
+}
+.text3 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-top: 15px;
+}
+.tv2{
+    width: 50%;
+}
+
+/*-------------------------body 4 featuers4--------------------*/
+
+
+.features4{
+    border-top: 6px solid #333;
+    /* border: 1px solid #fff; */
+    font-weight: 900;
+    padding: 50px 12%;
+    font-size: 30px;
+}
+.row4{
+    display: flex;
+    /* border: 1px solid #fff; */
+    align-items: center;
+    padding: 50px 0;
+}
+.text4{
+    /* border: 1px solid #fff; */
+    margin-left: 5px;
+    margin-bottom: 65px;
+    min-width: fit-content;
+    display: block;
+
+}
+
+
+.text4 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+
+.row4 .child{
+    width: 45%;
+    padding-left: 10px;
+
+}
+
+/*-------------------------body 5 featuers5--------------------*/
+
+
+
+.features5 {
+    border-top: 6px solid #333;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 17rem;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.dropdown {
+    height: 85px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    /* background: rgba(78, 78, 78, 1); * */
+    background:rgba(45, 45, 45, 1);
+    padding: 0px 20px 0px 20px;
+    font-weight: 200;
+    font-size: 25px;
+    justify-content: space-between;
+}
+h4{
+  font-weight: 400;;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*-------------------------footer--------------------*/
+
+.footer{
+    border-top: 6px solid #333;
+    /* border: 1px solid #db0001; */
+    padding: 70px 12%;
+
+
+}
+
+.footer .container2{
+    height: 5%;
+    /* border: 1px solid #fff; */
+}
+.container2 p{
+    padding-top: 5%;
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+
+}
+
+.footer-row{
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    /* border: 1px solid #00db3e; */
+    /* padding-left: 11.1%; */
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+
+.footer-cols1{
+    /* border: 1px solid #3300db; */
+    width: 20%;
+    line-height: 40px;
+
+}
+
+
+.footer-cols2{
+    margin-left: 15%;
+    /* border: 1px solid #3300db; */
+    width: 20%;
+    line-height: 40px;
+
+
+}
+
+
+.footer-cols3{
+    margin-left: 15%;
+    /* border: 1px solid #3300db; */
+    width: 20%;
+    line-height: 40px;
+
+}
+
+ul li{
+    list-style: none;
+}
+a{
+    color:rgba(255, 255, 255, 0.7);
+    padding-top: 10px;
+    font-size: 0.875rem;
+}
+
+.footer-row2 button{
+    border-radius: 4px;
+    padding: 5px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #ddd0d0;
+    font-size: 15px;
+    display: inline-flex;
+}
+
+.netflix{
+    margin-top: 2%;
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.7);
+
+}
+.footerdrop{
+    width: 8px;
+    height: 6px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.footerweb{
+    width: 25px;
+    height: 25px;
+
+
+}
+
+
+
